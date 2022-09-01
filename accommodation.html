@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top navbar-dark">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="" width="50px" height="50px">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tickets_offers.html">Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="things_to_do.html">Things To Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="accommodation.html">Accommodation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traveller_information.html">Traveller Information</a>
+                    </li>
+
+
+                </ul>
+
+                <ul class="navbar me-0 mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+
+                        <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Book It!
+                        </a>
+
+                    </li>
+                </ul>
+
+            </div> <!-- collapse -->
+
+        </div> <!-- container-fluid -->
+
+    </nav>
+
+    <section>
+
+        <div class="container mt-5">
+
+            <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+
+                <h1 class="display-4 text-info fw-bold mt-2">Accommodation in London</h1>
+                <p class="lead">Whatever your budget, find and book accommodation in London. Our guide covers London
+                    hotels, B&Bs, self-catering, camping and more.</p>
+
+            </div>
+
+        </div> <!-- container -->
+
+    </section> <!-- 1 -->
+
+    <section>
+
+        <div class="container">
+
+            <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+
+                <h1 class="display-4 text-danger fw-bold">Accommodation in London</h1>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.47340138938!2d-0.24168153443090962!3d51.528558241258565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2seg!4v1655664649710!5m2!1sen!2seg" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+        </div> <!-- container -->
+
+    </section>
+
+
+    <footer>
+
+        <nav class="navbar navbar-dark bg-dark">
+
+            <div class="container-fluid text-white text-decoration-none">
+
+                <p>
+                    &copy; 2017-2021 Company, Inc.
+                    &middot; <a class="text-decoration-none text-white" href="#">Privacy</a>
+                    &middot; <a class="text-decoration-none text-white" href="#">Terms</a>
+                </p>
+
+                <p><a href="#" class="text-decoration-none text-white">Back To Top</a></p>
+
+                <div class="footer-social">
+
+                    <span>Follow Us on: </span>
+                    <a href="#" class="text-warning"> <i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-warning"> <i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-warning"> <i class="fab fa-instagram-square"></i></a>
+                    <a href="#" class="text-warning"> <i class="fab fa-tiktok"></i></a>
+
+                </div>
+
+
+            </div> <!-- container-fluid -->
+
+        </nav>
+
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" tabindex="-1" id="myModal" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header bg-warning">
+
+                    <h5 class="modal-title" id="myModalLabel">Book Your Holiday</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div> <!-- modal-header -->
+
+                <div class="modal-body">
+
+                    <p>
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <label for="fullname" class="form-label" aria-describedby="fullnameHelp">Full Name</label>
+                            <input type="text" class="form-control">
+
+                        </div> <!-- 1 -->
+
+                        <div class="mb-3">
+
+                            <label for="email" class="form-label" aria-describedby="emailHelp">Email</label>
+                            <input type="text" class="form-control">
+                            <div class="form-text" id="infoHelp">
+                                We Will Never Share Your Email!
+                            </div>
+
+                        </div> <!-- 2 -->
+
+                        <div class="mb-3">
+
+                            <select class="form-select" aria-label="Select Menu">
+
+                                <option selected>Select Your Holiday Package.</option>
+                                <option value="h1">Holiday Package 1.</option>
+                                <option value="h2">Holiday Package 2.</option>
+                                <option value="h3">Holiday Package 3.</option>
+                                <option value="h4">Holiday Package 4.</option>
+
+                            </select>
+
+                        </div> <!-- 3 -->
+
+                        <div class="mb-3 form-check">
+
+                            <input type="checkbox" class="form-check-input" id="checkbox">
+                            <label for="checkbox" class="form-check-label">I Agree To The Terms & Conditions.</label>
+
+                        </div> <!-- 4 -->
+
+
+
+                    </form>
+
+                    </p>
+
+                </div> <!-- modal-body -->
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-info">Book Now</button>
+
+                </div> <!-- modal-footer -->
+
+            </div> <!-- modal-content -->
+
+        </div> <!-- modal-dialog -->
+
+    </div> <!-- modal -->
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
